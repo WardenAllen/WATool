@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WATool", "WATool.vcxproj", "{5EB89BAE-2582-4555-B953-37F7CBB033ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CatSpy", "Module\CatSpy\CatSpy.vcxproj", "{3723093C-AC07-4D45-B52E-B295DEBF16DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB89BAE-2582-4555-B953-37F7CBB033ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{5EB89BAE-2582-4555-B953-37F7CBB033ED}.Debug|x86.Build.0 = Debug|Win32
+		{5EB89BAE-2582-4555-B953-37F7CBB033ED}.Release|x86.ActiveCfg = Release|Win32
+		{5EB89BAE-2582-4555-B953-37F7CBB033ED}.Release|x86.Build.0 = Release|Win32
+		{3723093C-AC07-4D45-B52E-B295DEBF16DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3723093C-AC07-4D45-B52E-B295DEBF16DE}.Debug|x86.Build.0 = Debug|Win32
+		{3723093C-AC07-4D45-B52E-B295DEBF16DE}.Release|x86.ActiveCfg = Release|Win32
+		{3723093C-AC07-4D45-B52E-B295DEBF16DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {469A3F3F-EBA8-4E10-9E50-36AC911A2961}
+	EndGlobalSection
+EndGlobal

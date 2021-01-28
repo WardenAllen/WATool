@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{9fdc99c4-152f-4134-8659-9994208785ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{e47d6f79-b24b-44ce-9533-927fd4f7bbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget">
+      <UniqueIdentifier>{bb337123-d3b4-4e3a-8b07-44bb52154913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widget\Label">
+      <UniqueIdentifier>{6a9e750b-eed7-478f-8534-b140b1b434a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{d9671e94-3e22-44a8-ac61-8f7d9c08aa4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="WATool.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="WATool.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WATool.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Net\Tcp.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\ConnectWidget.cpp">
+      <Filter>Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\Label\HintLabel.cpp">
+      <Filter>Widget\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuf\CSMsg.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuf\CSBase.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Buffer.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\MsgHead.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="WATool.h" />
+    <QtMoc Include="Net\Tcp.h">
+      <Filter>Net</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\ConnectWidget.h">
+      <Filter>Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="Widget\Label\HintLabel.h">
+      <Filter>Widget\Label</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Header.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\CSBase.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\CSMsg.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Buffer.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\MsgHead.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
